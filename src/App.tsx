@@ -33,7 +33,7 @@ function App() {
     }))
   }
   
-  const colors = [
+  const colors: string[] = [
     '#16a085',
     '#27ae60',
     '#2c3e50',
@@ -45,7 +45,7 @@ function App() {
     '#472E32',
     '#BDBB99',
     '#77B1A9',
-    '#73A857'
+    '#73A857',
   ];
 
   const color = Math.floor(Math.random() * colors.length);
